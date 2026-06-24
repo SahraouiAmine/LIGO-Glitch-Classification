@@ -1,0 +1,8 @@
+# Inference-only deps for the Hugging Face Space. Keep this minimal.
+# If something here is only needed for training, it's in the wrong file.
+torch
+torchvision
+gradio
+pillow
+numpy
+grad-cam            # only if the demo ships the Grad-CAM overlay

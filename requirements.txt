@@ -1,0 +1,17 @@
+# Training environment (full). Pin versions once things work.
+# Inference deps live separately in requirements-serve.txt — keep them lean
+# so the Hugging Face Space stays small.
+#
+# TODO: pin versions after your first successful run.
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+matplotlib
+pillow
+grad-cam            # pytorch-grad-cam
+# data download helpers (pick what you use):
+# requests
+# zenodo_get
+# tqdm
