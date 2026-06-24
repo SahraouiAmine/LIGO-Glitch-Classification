@@ -2,10 +2,8 @@
 
 > **Live demo:** <!-- TODO: Hugging Face Space URL goes HERE, at the very top. -->
 
-Classifies transient noise ("glitches") in LIGO data by time–frequency
-morphology, using the Gravity Spy O3 dataset. Glitch identification is a core
-detector-characterization task — the same kind of data-quality work that, e.g.,
-the glitch subtraction behind GW200105 depended on.
+Classifies transient noise in LIGO data by time–frequency
+morphology, using the Gravity Spy O3 dataset.
 
 <!-- Write these sections AS you build. Don't leave them all for the end. -->
 
